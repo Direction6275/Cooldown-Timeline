@@ -1,0 +1,16 @@
+## Interface: 120001
+## Title: CooldownTimeline
+## Notes: Overlay personal cooldowns onto Blizzard's encounter timeline.
+## Author: You
+## Version: @project-version@
+## SavedVariables: CooldownTimelineDB
+## Dependencies: Ace3
+
+Core\Addon.lua
+Core\DB.lua
+Core\SpecState.lua
+Core\TimelineBridge.lua
+Core\CooldownTracker.lua
+Core\OverlayRenderer.lua
+Core\Slash.lua
+Config\SettingsPanel.lua
