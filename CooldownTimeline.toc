@@ -4,8 +4,17 @@
 ## Author: You
 ## Version: @project-version@
 ## SavedVariables: CooldownTimelineDB
-## Dependencies: Ace3
+## OptionalDeps: Ace3
 
+# Embedded libraries
+Libs\Ace3\LibStub\LibStub.lua
+Libs\Ace3\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\Ace3\AceAddon-3.0\AceAddon-3.0.xml
+Libs\Ace3\AceEvent-3.0\AceEvent-3.0.xml
+Libs\Ace3\AceConsole-3.0\AceConsole-3.0.xml
+Libs\Ace3\AceDB-3.0\AceDB-3.0.xml
+
+# Core addon files
 Core\Addon.lua
 Core\DB.lua
 Core\SpecState.lua
